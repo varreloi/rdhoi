@@ -1,0 +1,26 @@
+:root {
+    --primary: #FF9133;
+    --bg: #E3E6F3;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    text-decoration:none;
+
+}
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    color:#FF9133;
+}
+
+/*Navbar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 2px
+}
